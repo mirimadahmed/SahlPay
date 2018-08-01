@@ -1,4 +1,5 @@
 page-home {
+<<<<<<< HEAD
    
     ion-content {
         background: linear-gradient(316deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
@@ -69,5 +70,40 @@ page-home {
       }
 
     
+=======
+    #profile-image {
+        display: block;
+        border-radius: 50%;
+        width: auto;
+        height: 70px;
+        margin: 0 auto 0;
+        margin-bottom: -12px;
+    }
+    #profile-info {
+       margin-top: 75px;
+       margin-bottom: 75px;
+    }
+    #profile-name {
+        color: #444;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .mybtn{
+        background: #2D7DFF;
+        border-radius: 8px;
+        font-size: 14px;
+        color: #fff;
+        text-transform: initial;
+        
+        
+      
+    }
+>>>>>>> 18e429d8230f3cf460604d99b4b1c4db75d145b5
 
+    .mybtn ion-icon{
+        font-size: 24px;
+        padding-right: 15px;
+        float: left;
+ 
+    }
 }
