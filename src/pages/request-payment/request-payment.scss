@@ -1,0 +1,97 @@
+page-request-payment {
+
+    $transparent-white: rgba(255, 255, 255, .6);
+    // This is just to make the header transparent and button/icon with white color
+    .toolbar-content,
+    span {
+      color: white;
+    }
+    .toolbar-background,
+    ion-navbar,
+    ion-header {
+      background: transparent !important;
+      background-color: transparent !important;
+      border: none !important;
+    }
+    .header-md::after,
+    .toolbar-background-ios {
+      background-image: none;
+      border-bottom: 1 #ffffff;
+    }
+
+        ion-content {
+            background: linear-gradient(316deg, #f1c40f, #e8b71d, #e3e81d);
+            background-size: 1800% 1800%;
+            animation: rainbow 30s linear infinite;
+          }
+          @keyframes rainbow {
+            0% {
+              background-position: 0% 0%
+            }
+            50% {
+              background-position: 100% 100%
+            }
+            100% {
+              background-position: 0% 0%
+            }
+          }
+          // Content
+    
+        .logo {
+            width: 75%;
+            height: auto;
+            margin: 0 auto;
+            padding-top: 50px;
+          }
+        
+        .btn1 {
+            -webkit-text-fill-color: white;
+            border: 1px white solid;
+            border-radius: 25px;
+        }
+    
+        .marginT{
+            margin-top:60px !important;
+        }
+
+        .marginT1{
+            margin-top:20px !important;
+        }
+    
+        .textw{
+            color:#fff;
+        }
+    
+        .strike {
+            display: block;
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+          }
+          .strike>span {
+            position: relative;
+            display: inline-block;
+            font-weight: bold;
+          }
+          .strike>span:before,
+          .strike>span:after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 9999px;
+            height: 1px;
+            background-color:#fff;
+          }
+          .strike>span:before {
+            right: 100%;
+            margin-right: 15px;
+          }
+          .strike>span:after {
+            left: 100%;
+            margin-left: 15px;
+          }
+    
+        
+        
+    }
+    
