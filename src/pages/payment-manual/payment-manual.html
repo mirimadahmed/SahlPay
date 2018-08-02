@@ -1,25 +1,22 @@
-<ion-content padding class="transparent-header">
-    <ion-header>
-      <ion-navbar style="margin-top:10px;" >
-          <ion-title ><p class="textw"> Manual Paymeny</p></ion-title>
-        <button ion-button menuToggle>
-          <ion-icon name="menu"></ion-icon></button>
-      
-      </ion-navbar>
-    </ion-header>
+<ion-content >
+  <ion-navbar class="textw" color="main">
+  <img src="assets/imgs/menuicon.png" width="8%" (click)="menu()">
+  <ion-title>
+    <p class="textw">Make Payment</p>
+  </ion-title>
+</ion-navbar>
 
-    <div padding class="marginT">
-      <ion-item>
-        <ion-icon item-start name="person"></ion-icon>
-        <ion-input type="text" value="" placeholder="Enter recipient number"></ion-input>
-      </ion-item>
 
-  
-      <ion-item>
-        <ion-icon item-start name="cash"></ion-icon>
-        <ion-input type="tel" value="" placeholder="Enter amont"></ion-input>
-      </ion-item>
-     
-  
-      <button ion-button block outline color="light" class="login-button">Make Payment</button>
-    </div>
+  <div padding>
+    <ion-item>
+      <ion-input type="email" placeholder="Enter your Passport Number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="password" placeholder="Enter your Password here"></ion-input>
+    </ion-item>
+    <button ion-button block outline color="main" class="login-button">
+      <span class="textMain">Make Payment</span>
+    </button>
+  </div>
+
+</ion-content>

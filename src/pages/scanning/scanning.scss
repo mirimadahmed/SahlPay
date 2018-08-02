@@ -5,26 +5,8 @@ page-scanning {
     span {
       color: white;
     }
-    .toolbar-background,
-    ion-navbar,
-    ion-header {
-      background: transparent !important;
-      background-color: transparent !important;
-      border: none !important;
-    }
-    .header-md::after,
-    .toolbar-background-ios {
-      background-image: none;
-      border-bottom: 1 #ffffff;
-    }
 
-    ion-content {
-        background-image:url('../assets/imgs/bg1.jpg');
-        background-size: cover;
-        background-repeat:none; 
-    }
-
-  
+     
 
     .smallText{
         font-size: 8px;
@@ -48,6 +30,14 @@ page-scanning {
         color:#fff !important;
     }
 
+    .textb{
+      color:#000 !important;
+    }
+
+    .textMain{
+      color:#f1c40f !important;
+  }
+
     .strike {
         display: block;
         text-align: center;
@@ -66,7 +56,7 @@ page-scanning {
         top: 50%;
         width: 9999px;
         height: 1px;
-        background-color:#fff;
+        background-color:#f1c40f;
       }
       .strike>span:before {
         right: 100%;
@@ -77,5 +67,5 @@ page-scanning {
         margin-left: 15px;
       }
 
-
+     
 }

@@ -1,25 +1,22 @@
-<ion-content padding>
+<ion-content >
+  <ion-navbar class="textw" color="main">
+  <img src="assets/imgs/menuicon.png" width="8%" (click)="menu()">
+  <ion-title>
+    <p class="textw"> Make Payment</p>
+  </ion-title>
+</ion-navbar>
 
-  <div margin-top>
 
-    <ion-navbar class="textw">
-      <img src="assets/imgs/menuicon.png" width="8%" (click)="menu()">
-      <ion-title>
-       <p class="textw"> Make Payment</p>
-      </ion-title>
-    </ion-navbar>
-
-  </div>
   <div class="emptySpace"></div>
-  <div text-center class="textw">
+  <div text-center class="">
     <b> Scan the QR code for automatic payment</b>
     <img src="assets/imgs/qr.jpg" width="50%" class="marginT1">
     <div class="strike marginT">
       <span>
-        <p>or</p>
+        <p class="textb">or</p>
       </span>
     </div>
-    <button ion-button color="secondary">Make payment maunually</button>
+    <button ion-button color="main">Make payment maunually</button>
 
   </div>
 
