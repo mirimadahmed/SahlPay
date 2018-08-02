@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the HistoryPage page.
+ * Generated class for the PaymentManualPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,17 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-history',
-  templateUrl: 'history.html',
+  selector: 'page-payment-manual',
+  templateUrl: 'payment-manual.html',
 })
-export class HistoryPage {
-  
+export class PaymentManualPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HistoryPage');
+    console.log('ionViewDidLoad PaymentManualPage');
   }
 
 }
