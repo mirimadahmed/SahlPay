@@ -2,12 +2,12 @@
 
     <p text-center class="textw">
       <img class="logo" src="assets/imgs/logo1.png">
-      <br>USERNAME HERE</p>
+      <br>{{username}}</p>
   <div padding>
     <div align="center" class="marginT textw">
       <p>Your Current Balance is </p>
       <div class="strike">
-        <span><h1>2000 SAR</h1></span>
+        <span><h1>{{amount}} SAR</h1></span>
       </div>
 
     </div>
@@ -17,7 +17,7 @@
         <ion-col col-2></ion-col>
         <ion-col col-9>
           <p text-center padding class="btn1" (click)="qrPage()">Make Payment</p>
-          <p text-center padding class="btn1" (click)="qrPage()">View History</p>
+          <p text-center padding class="btn1" (click)="history()">View History</p>
           <p text-center padding class="btn1" (click)="qrPage()">Add Credit</p>
         </ion-col>
         <ion-col col-1></ion-col>

@@ -14,10 +14,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'history.html',
 })
 export class HistoryPage {
-  
+  history;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  this.history='purchases';
   }
+  
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad HistoryPage');

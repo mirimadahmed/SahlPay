@@ -23,6 +23,10 @@ export class HomePage {
     this.getUserData();
   }
 
+  history(){
+    this.navCtrl.push('HistoryPage');
+  }
+
   getUserData(){
     this.load = this.loading.create({
       spinner:'crescent',
